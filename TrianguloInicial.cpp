@@ -1,18 +1,18 @@
 /**************************************************
-* Programa: Triangulo (versión inicial)
+* Programa: Triangulo (versiÃ³n inicial)
 *
-* Descripción:
-*  Este programa escribe el borde de un triángulo
-*  aproximadamente equilátero, usando asteriscos.
+* DescripciÃ³n:
+*  Este programa escribe el borde de un triÃ¡ngulo
+*  aproximadamente equilÃ¡tero, usando asteriscos.
 **************************************************/
 #include <stdio.h>
 
 int main () {
   const int N =7; /*altura del triangulo*/
 
-  /*--Escribir el vértice superior --*/
-  for (int k = 1; k <= N-1; k++) {
-    printf( " " );
+  /*--Escribir el vÃ©rtice superior --*/
+  for (int k = 1; k <= N-1; k++) { /*im going to change a character*/
+    printf( "a" );
   }
   printf( "*\n");
 
